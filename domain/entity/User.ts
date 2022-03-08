@@ -1,4 +1,5 @@
 export interface User {
-  name: string;
+  guid: UniqueId;
+  login: string;
   token?: string;
 }
