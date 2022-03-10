@@ -1,8 +1,8 @@
-import { Profile } from './Profile';
-
 export interface User {
   guid: UniqueId;
   login: string;
   token?: string;
-  profile?: Profile;
+  name?: string;
+  surname?: string;
+  teamId?: UniqueId;
 }
